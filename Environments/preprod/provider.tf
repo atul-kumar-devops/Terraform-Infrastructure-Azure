@@ -6,15 +6,15 @@ terraform {
     }
   }
 
-  backend "azurerm"{
-    resource_group_name = "rg-terraform-state-manager"
+  backend "azurerm" {
+    resource_group_name  = "rg-terraform-state-manager"
     storage_account_name = "terraformstate34523"
-    container_name = "tfstate"
-    key = "preprod.terraform.tfstate"
+    container_name       = "tfstate"
+    key                  = "preprod.terraform.tfstate"
   }
 }
 
 provider "azurerm" {
   features {}
-  subscription_id = "18b95931-6bb5-431b-a964-40d9c2211486"
+  subscription_id = "cebec115-76a4-41a3-b52f-1485335c2232"
 }

@@ -7,10 +7,10 @@ rg_prod = {
 
 stg_prod = {
   stg1 = {
-    name                    = "stgprod454588"
-    location                = "eastus"
-    resource_group_name     = "rg-prod-01"
-    account_tier            = "Standard"
+    name                     = "stgprod454588"
+    location                 = "eastus"
+    resource_group_name      = "rg-prod-01"
+    account_tier             = "Standard"
     account_replication_type = "LRS"
   }
 }
