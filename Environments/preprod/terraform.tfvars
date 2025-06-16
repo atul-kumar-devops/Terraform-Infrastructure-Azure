@@ -7,10 +7,10 @@ rg_preprod = {
 
 stg_preprod = {
   stg1 = {
-    name                    = "stgpreprod454588"
-    location                = "eastus"
-    resource_group_name     = "rg-preprod-01"
-    account_tier            = "Standard"
+    name                     = "stgpreprod454588"
+    location                 = "eastus"
+    resource_group_name      = "rg-preprod-01"
+    account_tier             = "Standard"
     account_replication_type = "LRS"
   }
 }
